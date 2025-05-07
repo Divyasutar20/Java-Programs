@@ -6,8 +6,11 @@ class Stack1 {
     int size;
     Scanner sc = new Scanner(System.in);
 
-    Stack() { 
-           System.out.print("Enter stack size: ");         size = sc.nextInt();         stk = new int[size]; 
+    Stack() 
+     {  
+           System.out.print("Enter stack size: ");         
+           size = sc.nextInt();         
+           stk = new int[size]; 
        }
 
     void push() {
@@ -41,7 +44,7 @@ class Stack1 {
     }
 }
 
-class operation {
+public class Operation {
     public static void main(String[] args) {
         Stack stack = new Stack();
         Scanner sc = new Scanner(System.in);
