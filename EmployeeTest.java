@@ -45,7 +45,7 @@ public class Employee {
 }
 
 public class EmployeeTest {
-public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter first employee's first name: ");
         String firstName1 = scanner.next();
@@ -67,10 +67,8 @@ public static void main(String[] args) {
         System.out.println(emp2.getFirstName() + " " + emp2.getLastName() + ": " + emp2.getYearlySalary());
         emp1.giveRaise();
         emp2.giveRaise();
-         System.out.println("\nYearly Salaries after 10% raise:");
+        System.out.println("\nYearly Salaries after 10% raise:");
         System.out.println(emp1.getFirstName() + " " + emp1.getLastName() + ": " + emp1.getYearlySalary());
-        System.out.println(emp2.getFirstName() + " " + emp2.getLastName() + ": " + emp2.getYearlySalary()); } }
-
-{
-
+        System.out.println(emp2.getFirstName() + " " + emp2.getLastName() + ": " + emp2.getYearlySalary());
+    }
 }
